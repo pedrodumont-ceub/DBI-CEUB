@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="hip_pes_FK" directorySegmentName="seg_0" id="41A2A4BA-6888-B112-8610-25686358A2D0">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-04-03 22:12:12 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="067FEE0D-717C-58BF-75C6-66C7416B8F2D" value="true"/>
+<item key="D5AFF457-023A-FFBA-CC8C-D737562E2B1F" value="true"/>
+<item key="23A2837C-4020-0599-C74B-34590E8FB1CA" value="true"/>
+</engineerTo>
+<sourcePk>B243AE82-68B2-E4F1-9B66-8E0E3D59E6F9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B943168F-0707-35D2-EF57-233D10BFA697</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>62B396B7-6D98-A2CB-8E40-1D622B0A5420</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

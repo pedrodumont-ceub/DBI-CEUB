@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="62B396B7-6D98-A2CB-8E40-1D622B0A5420" name="HistoricoImcPessoa">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-04-03 22:02:18 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="067FEE0D-717C-58BF-75C6-66C7416B8F2D" value="true"/>
+<item key="D5AFF457-023A-FFBA-CC8C-D737562E2B1F" value="true"/>
+<item key="23A2837C-4020-0599-C74B-34590E8FB1CA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>hip</preferredAbbreviation>
+<shortName>HistoricoImcPessoa</shortName>
+<synonym>HistoricoImcPessoa</synonym>
+<synonymToDisplay>HistoricoImcPessoa</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dataMedidaImc" id="82849E8E-EDBF-62A3-5A84-DDBCD2BB221E">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-04-03 22:08:31 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="067FEE0D-717C-58BF-75C6-66C7416B8F2D" value="true"/>
+<item key="D5AFF457-023A-FFBA-CC8C-D737562E2B1F" value="true"/>
+<item key="23A2837C-4020-0599-C74B-34590E8FB1CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfPessoa" id="9771DB26-F79C-268F-CCBC-E59E987BE571">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-04-03 22:08:16 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="067FEE0D-717C-58BF-75C6-66C7416B8F2D" value="true"/>
+<item key="D5AFF457-023A-FFBA-CC8C-D737562E2B1F" value="true"/>
+<item key="23A2837C-4020-0599-C74B-34590E8FB1CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pesoPessoa" id="328337B8-59D4-0D2F-78A9-2EC83F42C2B4">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-04-03 22:09:17 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="067FEE0D-717C-58BF-75C6-66C7416B8F2D" value="true"/>
+<item key="D5AFF457-023A-FFBA-CC8C-D737562E2B1F" value="true"/>
+<item key="23A2837C-4020-0599-C74B-34590E8FB1CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="alturaPessoa" id="90A48F25-5F3E-3872-908B-B1DB978B8F69">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-04-03 22:09:39 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="067FEE0D-717C-58BF-75C6-66C7416B8F2D" value="true"/>
+<item key="D5AFF457-023A-FFBA-CC8C-D737562E2B1F" value="true"/>
+<item key="23A2837C-4020-0599-C74B-34590E8FB1CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vlrImcPessoa" id="A0E3ABA1-DC19-ED91-EDDB-38C55D548DDF">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-04-03 22:10:01 UTC</createdTime>
+<comment><![CDATA[vlrImcPessoa = pesoPessoa / (alturaPessoa x alturaPessoa)]]></comment>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="067FEE0D-717C-58BF-75C6-66C7416B8F2D" value="true"/>
+<item key="D5AFF457-023A-FFBA-CC8C-D737562E2B1F" value="true"/>
+<item key="23A2837C-4020-0599-C74B-34590E8FB1CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="analiseImcPessa" id="BFF129C4-5490-6E30-C54A-BEBC9EB26819">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-04-03 22:10:26 UTC</createdTime>
+<comment><![CDATA[Registro a análise do IMC da Pessoa a partir do resultado do cálculo do IMC, conforme segue:
+
+	IMC <18,5kg/m2: baixo peso. É recomendado procurar um médico para avaliação criteriosa do resultado. Pode indicar um estado de consumo do organismo, com poucas reservas e riscos associados.
+	IMC >18,5 até 24,9kg/m2: peso adequado. Tudo indica que está tudo bem, mas é importante avaliar outros parâmetros da composição corporal, para compreender se estão dentro do recomendado. Algumas pessoas apresentam IMC dentro da normalidade, mas têm circunferência abdominal maior que a recomendada e/ou quantidade de massa gorda acima do ideal.
+	IMC ≥25 até 29,9kg/m2: sobrepeso. O sobrepeso está associado ao risco de doenças como diabetes e hipertensão. Então, atenção! Consulte um médico e reveja hábitos para reverter o quadro. Também é importante avaliar outros parâmetros, como a circunferência abdominal.
+	IMC de 30,0- 34,9kg/m2: obesidade grau I. É importante buscar orientação médica e nutricional para entender melhor o seu caso, mesmo que os exames (colesterol e glicemia, por exemplo) estejam normais.
+	IMC de 35,0- 39,9kg/m2: obesidade grau II. Indica um quadro de obesidade mais evoluído em relação à classificação anterior e, mesmo com exames laboratoriais dentro da normalidade, não se deve atrasar a busca por orientação médica e nutricional.
+	IMC ≥ 40,0kg/m2: obesidade grau III. Nesse ponto, a chance de já estarmos diante de outras doenças associadas é mais elevada. É fundamental buscar orientação médica.
+]]></comment>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="067FEE0D-717C-58BF-75C6-66C7416B8F2D" value="true"/>
+<item key="D5AFF457-023A-FFBA-CC8C-D737562E2B1F" value="true"/>
+<item key="23A2837C-4020-0599-C74B-34590E8FB1CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pes_cpfPessoa" id="98690967-A06E-A05A-9B29-62B464725B84">
+<createdBy>pedro.dumont</createdBy>
+<createdTime>2025-04-28 22:48:49 UTC</createdTime>
+<generatorID>41A2A4BA-6888-B112-8610-25686358A2D0</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="067FEE0D-717C-58BF-75C6-66C7416B8F2D" value="true"/>
+<item key="D5AFF457-023A-FFBA-CC8C-D737562E2B1F" value="true"/>
+<item key="23A2837C-4020-0599-C74B-34590E8FB1CA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>3B5E0956-81E3-CFE0-180B-BC617DACA87D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B74C6C4C-5F44-6246-30A6-247F1BA3E4F6" name="hip_PK">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-04-03 22:08:26 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="067FEE0D-717C-58BF-75C6-66C7416B8F2D" value="true"/>
+<item key="D5AFF457-023A-FFBA-CC8C-D737562E2B1F" value="true"/>
+<item key="23A2837C-4020-0599-C74B-34590E8FB1CA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9771DB26-F79C-268F-CCBC-E59E987BE571</attributeRef>
+<attributeRef>82849E8E-EDBF-62A3-5A84-DDBCD2BB221E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
