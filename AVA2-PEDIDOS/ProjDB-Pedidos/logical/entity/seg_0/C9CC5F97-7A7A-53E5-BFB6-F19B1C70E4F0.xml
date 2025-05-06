@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C9CC5F97-7A7A-53E5-BFB6-F19B1C70E4F0" name="Pedido">
+<createdBy>pedro.dumont</createdBy>
+<createdTime>2025-05-05 23:27:34 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="EA259C50-3DC9-5613-586A-775DB40AB31A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pedidoID" id="A3BC93D6-85D8-D35F-1D45-F1277453255D">
+<createdBy>pedro.dumont</createdBy>
+<createdTime>2025-05-05 23:27:41 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="EA259C50-3DC9-5613-586A-775DB40AB31A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataHora" id="DC62B035-ADC1-F9B3-A052-1432E854AF3A">
+<createdBy>pedro.dumont</createdBy>
+<createdTime>2025-05-05 23:29:42 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="EA259C50-3DC9-5613-586A-775DB40AB31A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matricula" id="0346962D-39E3-C2F0-3613-14B57D481F18">
+<createdBy>pedro.dumont</createdBy>
+<createdTime>2025-05-05 23:48:16 UTC</createdTime>
+<generatorID>B88E5BD8-6299-74B9-892A-C3A2B1F69315</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="EA259C50-3DC9-5613-586A-775DB40AB31A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>5FB46E29-A777-B2A5-DD1C-823FD081CB22</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="5B410D7E-BC99-268A-14E4-BE230262237A">
+<createdBy>pedro.dumont</createdBy>
+<createdTime>2025-05-05 23:36:22 UTC</createdTime>
+<generatorID>003C1A96-DBF4-F665-EDC9-E4652AAA23E0</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="EA259C50-3DC9-5613-586A-775DB40AB31A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>81383937-E58B-EA2F-BE4B-8D4A7449AAF7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status" id="29557321-A832-B31B-48EB-9788D1C90579">
+<createdBy>pedro.dumont</createdBy>
+<createdTime>2025-05-06 00:20:35 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="EA259C50-3DC9-5613-586A-775DB40AB31A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2A784768-7CA1-7029-80A3-727F8CB2026D" name="ID">
+<createdBy>pedro.dumont</createdBy>
+<createdTime>2025-05-05 23:30:01 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="EA259C50-3DC9-5613-586A-775DB40AB31A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>A3BC93D6-85D8-D35F-1D45-F1277453255D</newElementsIDs>
+<usedAttributes>
+<attributeRef>A3BC93D6-85D8-D35F-1D45-F1277453255D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F40F2329-3251-888F-4B7B-B486275ACF85" name="Cliente">
+<createdBy>pedro.dumont</createdBy>
+<createdTime>2025-05-06 00:34:15 UTC</createdTime>
+<generatorID>3BAB3198-C2F0-634B-7B25-05FCC6D614B0</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpf" id="466A69C5-06D1-05D2-CBB9-06BB7BCF6CF8">
+<createdBy>pedro.dumont</createdBy>
+<createdTime>2025-05-06 00:34:15 UTC</createdTime>
+<generatorID>81383937-E58B-EA2F-BE4B-8D4A7449AAF7</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="F55FEA0F-56F1-D542-2C62-EF66CEB14F2F">
+<createdBy>pedro.dumont</createdBy>
+<createdTime>2025-05-06 00:34:15 UTC</createdTime>
+<generatorID>06A3F7CF-4969-F902-E84F-0762EACF47A5</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereco" id="00462685-9939-A49C-B2B6-64651DB9D8FA">
+<createdBy>pedro.dumont</createdBy>
+<createdTime>2025-05-06 00:34:15 UTC</createdTime>
+<generatorID>5D4DF5BB-1739-9031-B7B8-FFB055CB274D</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone" id="163495BB-6A02-B18C-2BA5-3B5D042CFA16">
+<createdBy>pedro.dumont</createdBy>
+<createdTime>2025-05-06 00:34:15 UTC</createdTime>
+<generatorID>3BFCF1FB-53E6-462D-62D0-51EC2C856E99</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="57B88CFE-1531-2164-37ED-7BD8B7C79144" name="Cliente_PK">
+<createdBy>pedro.dumont</createdBy>
+<createdTime>2025-05-06 00:34:15 UTC</createdTime>
+<generatorID>D0D4D76A-BB9C-6663-B752-6E5630C86F41</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="466A69C5-06D1-05D2-CBB9-06BB7BCF6CF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A6E68618-EFAB-2CCA-C98E-4AC0AAA6CDCD" containerWithKeyObject="B2F02C8E-0E3E-21C6-7A3E-35D91CEAEBC9" localFKIndex="9A3B364C-E765-720D-C69D-010992105475" name="Pedido_Vendedor_FK">
+<createdBy>pedro.dumont</createdBy>
+<createdTime>2025-05-06 00:34:15 UTC</createdTime>
+<generatorID>B88E5BD8-6299-74B9-892A-C3A2B1F69315</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<referredTableLongName>Vendedor</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EF460F0A-3B8B-C4D6-B345-5742270CD27C</referredTableID>
+<keyObject>ED6622B3-3D09-6135-7649-F4B9C010A531</keyObject>
+<referredKeyID>ED6622B3-3D09-6135-7649-F4B9C010A531</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>matricula</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
