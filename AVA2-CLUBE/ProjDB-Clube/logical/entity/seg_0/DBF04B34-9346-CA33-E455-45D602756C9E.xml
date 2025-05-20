@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DBF04B34-9346-CA33-E455-45D602756C9E" name="DatasMensalidade">
+<createdBy>pedro.dumont</createdBy>
+<createdTime>2025-05-19 23:54:28 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="2E05ADE0-7B27-D1AC-B6CB-4792C1F8C3E7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfTitular" id="FF171F51-68E9-F692-8E77-EAC2F7661E5A">
+<createdBy>pedro.dumont</createdBy>
+<createdTime>2025-05-19 23:54:50 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="2E05ADE0-7B27-D1AC-B6CB-4792C1F8C3E7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataVencimento" id="FB5281C9-2793-D350-3E9D-D1EDA40A3A5C">
+<createdBy>pedro.dumont</createdBy>
+<createdTime>2025-05-19 23:55:15 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="2E05ADE0-7B27-D1AC-B6CB-4792C1F8C3E7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataPagamento" id="69F40399-A9D5-9A26-83E3-1F0D4AF4631B">
+<createdBy>pedro.dumont</createdBy>
+<createdTime>2025-05-19 23:55:24 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="2E05ADE0-7B27-D1AC-B6CB-4792C1F8C3E7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular1" id="90DA9C33-1CB7-D125-42BC-0FC7ECED3298">
+<createdBy>pedro.dumont</createdBy>
+<createdTime>2025-05-19 23:55:59 UTC</createdTime>
+<generatorID>740C69D0-11F9-55BD-AD2A-F0562EE23BF3</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="2E05ADE0-7B27-D1AC-B6CB-4792C1F8C3E7" value="true"/>
+</engineerTo>
+<referedAttribute>817F5CE3-221F-BB12-B7F2-E6E1A5C51A4A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F02A8FEE-18F8-9BA6-F396-D647C92922B9" name="DatasMensalidade PK">
+<createdBy>pedro.dumont</createdBy>
+<createdTime>2025-05-19 23:55:36 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="2E05ADE0-7B27-D1AC-B6CB-4792C1F8C3E7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FF171F51-68E9-F692-8E77-EAC2F7661E5A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

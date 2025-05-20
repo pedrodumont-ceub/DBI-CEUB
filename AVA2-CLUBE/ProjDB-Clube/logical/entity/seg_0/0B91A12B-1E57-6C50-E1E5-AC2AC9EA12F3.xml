@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0B91A12B-1E57-6C50-E1E5-AC2AC9EA12F3" name="Mensalidade">
+<createdBy>pedro.dumont</createdBy>
+<createdTime>2025-05-19 23:38:18 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="2E05ADE0-7B27-D1AC-B6CB-4792C1F8C3E7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfTitular" id="817F5CE3-221F-BB12-B7F2-E6E1A5C51A4A">
+<createdBy>pedro.dumont</createdBy>
+<createdTime>2025-05-19 23:38:24 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="2E05ADE0-7B27-D1AC-B6CB-4792C1F8C3E7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeTitular" id="9A3F3661-8934-FB92-AFD4-D40A19FA8411">
+<createdBy>pedro.dumont</createdBy>
+<createdTime>2025-05-19 23:38:35 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="2E05ADE0-7B27-D1AC-B6CB-4792C1F8C3E7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valorMensalidade" id="8D295832-EF16-E062-14D2-BE55F27D0175">
+<createdBy>pedro.dumont</createdBy>
+<createdTime>2025-05-19 23:38:53 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="2E05ADE0-7B27-D1AC-B6CB-4792C1F8C3E7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular1" id="7FDD3A11-7EF2-25B6-704B-AD073C952FB6">
+<createdBy>pedro.dumont</createdBy>
+<createdTime>2025-05-19 23:48:24 UTC</createdTime>
+<generatorID>A13212B8-DB17-2EE7-D5B0-9A7CDED316D2</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="2E05ADE0-7B27-D1AC-B6CB-4792C1F8C3E7" value="true"/>
+</engineerTo>
+<referedAttribute>3CDB8DAD-E3F5-2783-DC4A-021B40D15FAC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular2" id="FCB68246-7ACE-8610-5FC1-48C4BAF604BA">
+<createdBy>pedro.dumont</createdBy>
+<createdTime>2025-05-19 23:56:02 UTC</createdTime>
+<generatorID>740C69D0-11F9-55BD-AD2A-F0562EE23BF3</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="2E05ADE0-7B27-D1AC-B6CB-4792C1F8C3E7" value="true"/>
+</engineerTo>
+<referedAttribute>FF171F51-68E9-F692-8E77-EAC2F7661E5A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1FE5737E-9012-3764-B179-2E451EAEE289" name="Mensalidade PK">
+<createdBy>pedro.dumont</createdBy>
+<createdTime>2025-05-19 23:38:34 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="2E05ADE0-7B27-D1AC-B6CB-4792C1F8C3E7" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>817F5CE3-221F-BB12-B7F2-E6E1A5C51A4A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
